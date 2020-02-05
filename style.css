@@ -28,6 +28,8 @@ h1 {
   
   h1 {
     border-bottom:2px solid lightgrey;
+    margin:0;
+    padding:1rem;
   }
   
   p {
