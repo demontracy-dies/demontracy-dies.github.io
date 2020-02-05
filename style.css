@@ -12,4 +12,9 @@ header {
     height:20vw;
     object-fit:cover;
   }
+  
+  #demo {
+    display:flex;
+    flex-flow:row wrap;
+  }
 }
