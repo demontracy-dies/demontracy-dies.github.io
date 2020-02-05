@@ -12,6 +12,7 @@ function loadDoc() {
 		if (this.readyState == 4 && this.status == 200) {
 			output = JSON.parse(this.responseText);
 			for (x in output.results) {
+				document.getElementById('demo').innerHTML += output.results[x];
 				document.getElementById('demo').innerHTML += '<h1>' + output.results[x].title + '</h1>';
 				document.getElementById('demo').innerHTML += '<p>' + output.results[x].abstract + '</p>';
 			}
