@@ -2,6 +2,10 @@ header {
   font-size:5rem;
 }
 
+img {
+Width:100%;
+}
+
 h1 {
   font-variant:small-caps;
 }
